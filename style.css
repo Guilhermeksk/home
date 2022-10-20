@@ -1,32 +1,91 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'bungee', sans-serif;
+    font-family: 'bungee', sans-serif, 'Baloo';
 }
 
 body{
-  background: url("bg.jpg");
-  background-size: 100%;
+  background-color: #E5E5E5;
 }
 
+.informacoes-usuario{
+  padding-left: 10%;
+  padding-block: 105px;
+}
+
+.solid{
+  border: none;
+  border-radius: 49px;
+  font-size: 18px;
+  height: 48px;
+  width: 520px;
+  padding-left: 20px;
+}
+
+.dados-ruas{
+background-color: #63676359;
+height: 50vh;
+width: 30%;
+margin-left: 50%;
+margin-top: -40px;
+border-radius: 20px;
+}
+
+.topicos{
+  padding-block: 15px;
+  padding-left: 20px;
+
+}
+
+.btn{
+  width: 150px;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  font-size: 14px;
+  color: #588157;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  border: #588157 2px solid;
+}
 a {
   color: #fff;
   text-decoration: none;
   transition: 0.3s;
 }
 
+#rua-usuario{
+  align-items: center;
+}
+
+.title{
+  font-size: 25px;
+  color:#344E41 ;
   
+}
+
+.title2{
+  font-size: 40px;
+  color:#344E41;
+  
+
+}
+
 
 a:hover {
   opacity: 0.7;
 }
 
 .logo {
-  font-size: 40px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+  align-items: left;
+  height: 90%;
+  width: 50%;
+
 }
 
 nav {
@@ -34,13 +93,14 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #044235b4;
+  background:#588157;
   height: 10vh;
 }
 
 
 
 .nav-list {
+  font-size: 20px;
   list-style: none;
   display: flex;
   
