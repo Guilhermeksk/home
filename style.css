@@ -17,13 +17,7 @@ a {
   transition: 0.3s;
 }
 
-  section{
-    width: 100%;
-    height: 50vh;
-    margin-top: 25%;
-    background-color: #090548d2;
-    
-  }
+  
 
 a:hover {
   opacity: 0.7;
@@ -40,7 +34,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #1b0243b4;
+  background: #044235b4;
   height: 10vh;
 }
 
