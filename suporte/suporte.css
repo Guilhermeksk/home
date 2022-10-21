@@ -1,0 +1,51 @@
+
+.solid{
+    padding-left: 13%; 
+    padding-top: 3%;
+    display: inline-block;
+}
+
+
+.suporte{
+    font-family: 'Baloo 2';
+    font-size: 60px;
+    color:#344E41 ;
+    
+    
+  }
+  .txt{
+    margin-top: 3%;
+    font-family: 'Baloo 2';
+    font-size:25px ;
+     width:80vh;
+     justify-content: center;
+     display: inline-block;
+  }
+
+  
+.btn{
+    font-family: 'Baloo 2';
+    width: 130px;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #344E41;
+   margin-left: 13%;
+   margin-top: -50%;
+
+
+  }
+.sup-pai{
+    display: inline-block;
+    padding-left: 70%;
+    margin-top: -20%;
+    
+    
+}
+.sup{
+   width: 40vh;
+}
